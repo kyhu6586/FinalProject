@@ -23,7 +23,7 @@ var pgp = require('pg-promise')();
   password: This the password for accessing the database.  You'll need to set a password USING THE PSQL TERMINAL THIS IS NOT A PASSWORD FOR POSTGRES USER ACCOUNT IN LINUX!
 **********************/
 //uncomment when deploying
-const dbConfig = process.env.DATABASE_URL;
+//const dbConfig = process.env.DATABASE_URL;
 
 const dbConfig = {
 	host: 'ec2-50-19-109-120.compute-1.amazonaws.com',
